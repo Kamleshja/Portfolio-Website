@@ -50,8 +50,8 @@ const BASICS = {
   subtitle: "Enterprise Systems & Mobile Architecture",
   email: "kamleshjangley01@gmail.com",
   location: "Raipur (C.G), India",
-  availability: "Available for selected contract engagements / direct roles",
-  github: "https://github.com/kamlesh-jangley",
+  availability: "Available for Full Time Roles / Freelance Oppurtunity",
+  github: "https://github.com/Kamleshja/",
   linkedin: "https://linkedin.com/in/kamlesh-jangley",
   summary: "Results-driven Full Stack Developer with 4 years of experience in designing and enhancing scalable enterprise platforms using .NET 8, ASP.NET Core Web API, Angular and MS SQL. Experienced in building modular, secure, and compliant applications with strong emphasis on clean architecture, automation, and user-centric design."
 };
@@ -59,8 +59,8 @@ const BASICS = {
 const METRICS = [
   { value: "30%", label: "API Speed Improvement", description: "Achieved via database indexing & query structure optimization" },
   { value: "4 Years", label: "Enterprise Software Dev", description: "Active architectural design & production deployments" },
-  { value: "Clean Arc", label: "N-Tier & Clean Patterns", description: "Strict boundaries between Domain, Application & Data layers" },
-  { value: "Cross-Plat", label: "Web & Mobile Ecosystems", description: "Seamless offline sync interfaces using .NET MAUI & Angular" }
+  { value: "Clean Architecture", label: "N-Tier & Design Patterns", description: "Strict boundaries between Domain, Application & Data layers" },
+  { value: "Cross-Platform", label: "Web & Mobile Ecosystems", description: "Seamless offline sync interfaces using .NET MAUI & Angular" }
 ];
 
 const PROJECTS = [
@@ -422,7 +422,7 @@ export default function Home() {
               Career Timeline
             </a>
             <a href="#contact" className="text-xs tracking-wider uppercase font-technical text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors">
-              Secure Contact
+              Get in Touch
             </a>
           </nav>
 
@@ -482,7 +482,7 @@ export default function Home() {
               onClick={() => setMobileMenuOpen(false)}
               className="text-sm font-technical uppercase tracking-wide py-2 text-[var(--text-secondary)] hover:text-[var(--text-primary)]"
             >
-              Secure Contact
+              Get in Touch
             </a>
           </motion.div>
         )}
@@ -505,9 +505,6 @@ export default function Home() {
 
             {/* Display title */}
             <div className="space-y-2">
-              <span className="text-xs uppercase tracking-widest font-technical text-[var(--text-muted)] block">
-                SYSTEMS ARCHITECT & BACKEND LEADER
-              </span>
               <h1 className="text-4xl md:text-6xl font-medium tracking-tight text-[var(--text-primary)] leading-[1.1]">
                 Kamlesh Jangley
               </h1>
@@ -518,7 +515,7 @@ export default function Home() {
 
             {/* Short brand value pitch */}
             <p className="text-base md:text-lg leading-relaxed text-[var(--text-secondary)] max-w-xl">
-              Engineering stable backend platforms in C# .NET, optimizing databases, and integrating performant frontend clients using Angular. Specializing in security boundaries (JWT, RBAC) and offline synchronization frameworks.
+              Results-driven Full Stack Developer with 4 years of experience designing and enhancing scalable enterprise platforms using .NET 8, ASP.NET Core Web API, Angular, and MS SQL. Strong emphasis on clean architecture, automation, and user-centric design.
             </p>
 
             {/* Action controls */}
@@ -533,7 +530,7 @@ export default function Home() {
                 href="#contact"
                 className="magnetic-btn inline-flex items-center px-6 h-12 border border-[var(--border-accent)] bg-[var(--bg-card)] text-[var(--text-primary)] text-xs font-technical uppercase font-bold tracking-widest rounded-lg hover:bg-[var(--bg-card-hover)] transition-all duration-200"
               >
-                Secure Contact
+                Get in Touch
               </a>
             </div>
 
